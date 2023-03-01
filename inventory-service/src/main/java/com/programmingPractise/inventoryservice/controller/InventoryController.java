@@ -15,9 +15,10 @@ public class InventoryController {
 
     private final InventoryService inventoryService;
 
-    //http://localhost:8082/inventory/iphone-13,iphone13-red
+    //Pathvariable example: http://localhost:8082/inventory/iphone-13,iphone13-red
     //
-    // http://localhost:8082/inventory?skuCode=iphone-13&skuCode=iphone13-red
+    //RequestParam example: http://localhost:8082/inventory?skuCode=iphone-13&skuCode=iphone13-red
+
 
 
 
